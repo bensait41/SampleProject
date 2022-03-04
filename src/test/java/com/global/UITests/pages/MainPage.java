@@ -14,19 +14,6 @@ public class MainPage{
         PageFactory.initElements(Driver.get(),this);
     }
 
-    @FindBy(tagName = "article")
-    public List<WebElement> songsInPlaylist;
-
-    @FindBy(xpath = "//div[@itemprop='name']")
-    public List<WebElement> songNamesElements;
-
-    public int getTheNumberOfSongsInPlaylist(){
-           return songsInPlaylist.size();
-    }
-
-
-
-
 
 
 
